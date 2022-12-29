@@ -1,0 +1,174 @@
+body.start {
+  text-align: center;
+  background-color: #f6f7f8;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: auto;
+}
+body.start .btn-primary {
+  background-color: #43a1e2;
+  border: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px 0;
+  padding: 13px;
+}
+body.start .btn-primary:hover {
+  border: 0;
+  background-color: #2a94de;
+}
+body.start .step {
+  display: none;
+  padding-bottom: 50px;
+}
+body.start .step.visible {
+  display: block;
+}
+body.start header {
+  margin-top: 30px;
+}
+body.start header h2 {
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+body.start header p {
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 676px;
+  margin: 0 auto 36px;
+}
+body.start a {
+  color: #3498db;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+body.start figure .video {
+  height: 380px;
+}
+body.start figure figcaption {
+  max-width: 676px;
+  margin: 30px auto 0;
+  text-align: left;
+}
+body.start figure figcaption strong {
+  width: 85px;
+  font-weight: 600;
+}
+body.start figure figcaption p {
+  margin-bottom: 12px;
+}
+body.start figure figcaption h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+body.start figure figcaption .bulleted {
+  list-style-type: circle;
+  line-height: 28px;
+  margin: 10px 0 20px 20px;
+}
+body.start .logo {
+  margin-bottom: 20px;
+}
+body.start ul#pager {
+  border-top: 1px solid #e4e6ed;
+  max-width: 676px;
+  margin: auto;
+  padding: 18px 0 14px;
+}
+body.start ul#pager li {
+  display: inline-block;
+  font-size: 14px;
+}
+body.start ul#pager li .page-btn {
+  outline: none;
+  transition: background-color 0.5s linear;
+  display: inline-block;
+  border: 0;
+  cursor: default;
+}
+body.start ul#pager li .page-btn .counter {
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  float: left;
+  background: #d2d6e1;
+  border-radius: 100%;
+  text-align: center;
+}
+body.start ul#pager li .page-btn .caption {
+  font-weight: 600;
+  float: left;
+  margin-left: 12px;
+  color: #666769;
+  opacity: 0.7;
+}
+body.start ul#pager li .page-btn.active .counter {
+  background-color: #666769;
+}
+body.start ul#pager li .page-btn.active .caption {
+  opacity: 1;
+}
+body.start ul#pager li .page-btn span.feathericon-check {
+  padding-left: 1px;
+  line-height: 22px;
+  font-size: 13px;
+  font-weight: bolder;
+}
+body.start ul#pager li:first-child {
+  text-align: left;
+  width: 222px;
+}
+body.start ul#pager li:nth-child(2) {
+  width: 244px;
+}
+body.start ul#pager li:last-child {
+  text-align: right;
+  width: 200px;
+}
+body.start .upsell {
+  background-color: #fff;
+  border: 1px solid #d5dadf;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08), inset 0 1px 1px #fff;
+  display: table;
+  width: 678px;
+  margin-top: 24px;
+  margin-bottom: 36px;
+}
+body.start .upsell .btn {
+  border-radius: 3px;
+  border: transparent;
+  display: block;
+  padding: 9px;
+  font-size: 14px;
+}
+body.start .upsell .login-container {
+  display: table-cell;
+  padding: 40px;
+  width: 50%;
+  border-right: 1px solid #d5dadf;
+  text-align: center;
+}
+body.start .upsell .login-container ~ .login-container {
+  border-right: transparent;
+}
+body.start .upsell .customer .btn {
+  background-color: #59c07b;
+  color: #fff;
+}
+body.start .upsell .customer .btn:hover {
+  background-color: #4eaf6e;
+}
+body.start .upsell .not-customer .btn {
+  background-color: #ecf0f1;
+  color: #7f8c8d;
+}
+body.start .upsell .not-customer .btn:hover {
+  background-color: #dadfe0;
+}
+
+/*# sourceMappingURL=index.css.map*/

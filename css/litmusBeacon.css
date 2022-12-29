@@ -1,0 +1,101 @@
+#litmusBeacon {
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(140, 140, 140, 0.15), 0 6px 12px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  width: 60px;
+  height: 60px;
+  opacity: 0.9;
+  transition: all 0.2s ease-in-out;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999;
+  cursor: pointer; }
+  #litmusBeacon:hover {
+    box-shadow: 0 2px 4px 0 rgba(140, 140, 140, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.1);
+    opacity: 1; }
+  #litmusBeacon:active {
+    transform: scale(0.96); }
+
+.fileAccessNotice {
+  background: white;
+  width: 220px;
+  position: relative;
+  bottom: 300px;
+  padding: 20px;
+  right: 200px;
+  box-shadow: 0px 0 5px rgba(0, 0, 0, 0.4);
+  box-sizing: unset; }
+
+.fileAccessNotice .access-link {
+  background-color: #55bc75;
+  width: 100%;
+  display: inline-block;
+  color: white;
+  line-height: 44px;
+  border-radius: 6px;
+  margin-top: 10px;
+  text-decoration: none; }
+
+.fileAccessNotice h1,
+.fileAccessNotice h2,
+.fileAccessNotice h3,
+.fileAccessNotice h4,
+.fileAccessNotice h5,
+.fileAccessNotice h6,
+.fileAccessNotice p,
+.fileAccessNotice a {
+  font-family: "proxima_novasemibold" !important;
+  font-size: 16px;
+  color: #2E2C34;
+  text-align: center;
+  line-height: 20px; }
+
+.fileAccessNotice h1 {
+  margin: 20px; }
+
+.beaconIndicator {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  background-color: #d46a64;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%); }
+
+.beaconIndicator:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 2px #d46a64;
+  -webkit-animation: active 2s infinite linear;
+  animation: active 2s infinite linear; }
+
+.access-on .beaconIndicator {
+  display: none; }
+
+@-webkit-keyframes active {
+  0% {
+    -webkit-transform: scale(0.1);
+    opacity: 1; }
+  70% {
+    -webkit-transform: scale(2.5);
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes active {
+  0% {
+    transform: scale(0.1);
+    opacity: 1; }
+  70% {
+    transform: scale(2.5);
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
